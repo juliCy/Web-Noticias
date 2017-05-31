@@ -1,9 +1,5 @@
 # Web-Noticias
 
-* Trabajo realizado por Julián Maestre
-* Lenguaje de Marcas
-* Módulo DAM
-
 Objectiu final: Realitzar una aplicació web de notícies que, en fer scroll fins abaix, recarregui més notícies amb html, jQuery i Bootstrap.
 
 ## Especificaciones
@@ -72,7 +68,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Julián Maestre** - *Lenguaje de Marcas* - *DAM*
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
