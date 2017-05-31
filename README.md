@@ -20,7 +20,7 @@ Objectiu final: Realitzar una aplicació web de notícies que, en fer scroll fin
 * Cada pàgina ha de contenir les etiquetes meta (amb open graph) per compartir títol, descripció, imatge (gran), nom de l'aplicació i url de la pàgina.  <b>CORRECTO</b>
 
 
-### Maquetación inicial
+## Maquetación inicial
 
 AQUI VAN LAS FOTOS DEL CUADERNO Y EXPICAR LAS LIGERAS MODIFICACIONES
 
@@ -28,11 +28,13 @@ AQUI VAN LAS FOTOS DEL CUADERNO Y EXPICAR LAS LIGERAS MODIFICACIONES
 Give the example
 ```
 
-## Añadidos
+### Añadidos al boceto inicial
 
 Se ha añadido un footer con enlaces de interés.
 
 ### Aclaraciones
+
+Se ha añadido otra librería adicional de bootstrap para añadir iconos que no ofrece gliphicon, como por ejemplo los de github...
 
 Se han realizado media queries para poder adaptar la página web a todas las resoluciones más empleadas hoy en dia.
 Ya que debido a la maquetación de la página no se adaptaba igual a todas las resoluciones.
@@ -41,48 +43,13 @@ La barra de navegación no tiene funciones implementadas, porqué no hay noticia
 En las versiones para móvil se añade el botón de login dentro de la barra de navrgación.
 
 La barra de navegación no queda fija en las versiones de móvil, excepto IPAD, para que así se muestra la máxima información posible en pantalla.
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
 
 ```
 Give an example
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Autor
 
 * **Julián Maestre** - *Lenguaje de Marcas* - *DAM*
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
