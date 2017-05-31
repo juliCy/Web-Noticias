@@ -6,7 +6,7 @@ Objectiu final: Realitzar una aplicació web de notícies que, en fer scroll fin
 
 * La maquetació (layer design) ha de deixar 300 px d'espai a la dreta de la pantalla per publicitat si la pantalla és suficientment ample. Tot altre diseny és lliure.  <b>CORRECTO</b>
 * Per dispositius mòbils, la publicitat anirá fixada a la part inferior o bé només es mostrará a la part superior (i desapareixerà en fer scroll) amb un alt de 90px. Pots triar l'opció. Tot altre diseny és lliure.  <b>CORRECTO</b> <br>La publicidad se muestra en la parte superior y desaparece al hacer scroll.
-* Les dades són: títol (entorn a 8 paraules), imgbig (url al json, imatge a la carpeta), imgmid (url al json, imatge a la carpeta), descripció (mínim de 300 caràcters), data i hora (datetime).  <b>*****************************</b>
+* Les dades són: títol (entorn a 8 paraules), imgbig (url al json, imatge a la carpeta), imgmid (url al json, imatge a la carpeta), descripció (mínim de 300 caràcters), data i hora (datetime).  <b>CORRECTO</b>
 * Totes les notícies han de tenir el mateix format i mostrar les dades especificades de forma elegant a tot dispositiu.  <b>CORRECTO</b>
 
 ## Requisitos
@@ -30,12 +30,17 @@ Give the example
 
 ## Añadidos
 
-
+Se ha añadido un footer con enlaces de interés.
 
 ### Aclaraciones
 
-Explain what these tests test and why
+Se han realizado media queries para poder adaptar la página web a todas las resoluciones más empleadas hoy en dia.
+Ya que debido a la maquetación de la página no se adaptaba igual a todas las resoluciones.
 
+La barra de navegación no tiene funciones implementadas, porqué no hay noticias suficientes noticias como para clasificarlas.
+En las versiones para móvil se añade el botón de login dentro de la barra de navrgación.
+
+La barra de navegación no queda fija en las versiones de móvil, excepto IPAD, para que así se muestra la máxima información posible en pantalla.
 ```
 Give an example
 ```
