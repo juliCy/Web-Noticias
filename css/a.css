@@ -1,0 +1,126 @@
+body{font-family:'Yanone Kaffeesatz',sans-serif; background: url('../img/fondo.jpg') center center no-repeat fixed}
+body,input,.btn{font-size:20px !important}
+#jumbo{background:url('../img/jumbo.jpg') 10% 80% no-repeat; background-size:cover; margin-bottom: 0}
+#logoimg {border-radius: 0; height: auto; width: auto; margin-top: 8px}
+.container {height: 100%; width: 100%; margin: 0; padding: 0}
+
+.footer{padding:50px; margin-top: 50px; text-align:center; background-color:#2a2730; position: relative}
+.links {list-style-type: none; padding: 0}
+.links li {text-decoration: none; display: inline-block; margin: 10px}
+#footlink {color: grey !important}
+
+.form-control{ width: auto !important; margin-left: 10%; margin-top: 20px}
+#log {float: left; width: 100px; margin-left: 10%; margin-bottom: 40%; margin-top: 20px}
+#cargar {width: auto}
+#cargardiv {text-align: center; width: auto; margin-top: 25px}
+.navbar-fixed {position: fixed; top: 0; z-index: 100; width: 100%}
+
+#titulo {color: red}
+#titulo:hover {color: red !important}
+h1 {width: auto; margin-top: 10px}
+p {font-size: 16.45pt; margin-bottom: 20px; margin-top: 100px}
+#login {display: none}
+.linknot {text-decoration: none !important; color: black}
+.linknot:hover {color: black !important}
+a {text-decoration: none !important; color: black}
+a:hover {color: red !important}
+a:visited {color: transparent}
+
+#not1 {margin-top: 0}
+.estilo1 {width: calc(100% - 380px); position: relative; margin-top: 30px; margin-left: 25px; margin-right: 20px; margin-bottom: 30px}
+#not2 {margin-top: 20px}
+#not3 {width: calc(100% - 380px); position: relative; margin-top: 20px; margin-left: 25px; margin-right: 20px; margin-bottom: 0}
+.estilo1 {background-color: #E8C7C7; border-radius: 25px; box-shadow: 0 4px 8px 0 rgba(215, 40, 40, 0.9), 0 6px 20px 0 rgba(215, 40, 40, 0.19)}
+
+.minimg {float:left; width: 250px; height: 170px; padding: 17px}
+img {border-radius: 8px; width: 200px; height: 150px; margin-top: auto}
+.tit {margin-left: 1%; padding: 5px}
+.titmarg {margin-top: 10px}
+#imagen {width: 100%; height: 100%}
+#imgnot {width: 100%; height: 100%; padding: 3%}
+h1 {text-align: justify}
+#cuerpo {padding: 15px; text-align: justify; margin-top: 15px; color: black}
+
+#publi {float: right; width: 300px; height: auto}
+#publimgh {border-radius: 0; width: 300px; height: 100%; margin-left: -15px}
+#publimgm {display: none}
+
+@media (max-width: 768px){
+    #login {display: block}
+    .form-control{display: none}
+    #log {display: none}
+
+    #publi {height: 90px; width: 100%}
+    #publimgh {display: none}
+    .col-sm-4 {display: none}
+    #publi img {border-radius: 0px; width: auto; height: 90px; margin-top: 0}
+    #publimgm {display: block}
+
+    .estilo1 {width: calc(92%); position: relative; margin-top: 30px; margin-left: 30px; margin-right: 20px; margin-bottom: 30px}
+    #not3 {width: calc(92%); position: relative; margin-top: 20px; margin-left: 30px; margin-right: 20px; margin-bottom: 30px}
+    .estilo1{background-color: #E8C7C7; border-radius: 25px; box-shadow: 0 4px 8px 0 rgba(215, 40, 40, 0.2), 0 6px 20px 0 rgba(215, 40, 40, 0.19)}
+    #not1 {margin-top: 150px}
+    .minimg {width: 250px; height: 130px; padding: 15px}
+    h1 {width: auto; margin-top: 20px}
+    p {margin-top: 70px}
+}
+
+@media (max-width: 414px){
+    #login {display: block}
+    .form-control{display: none}
+    #log {display: none}
+
+    #publi {height: 90px; width: 100%}
+    #publimgh {display: none}
+    .col-sm-4 {display: none}
+    #publi img {border-radius: 0px; width: auto; height: 90px; margin-top: 0}
+    #publimgm {display: block}
+
+    .estilo1 {width: calc(92%); position: relative; margin-top: 30px; margin-left: 18px; margin-right: 20px; margin-bottom: 30px}
+    #not3 {width: calc(92%); position: relative; margin-top: 20px; margin-left: 18px; margin-right: 20px; margin-bottom: 30px}
+    .estilo1{background-color: #E8C7C7; border-radius: 25px; box-shadow: 0 4px 8px 0 rgba(215, 40, 40, 0.2), 0 6px 20px 0 rgba(215, 40, 40, 0.19)}
+    #not1 {margin-top: 150px}
+    .minimg {width: 250px; height: 130px; padding: 15px; margin-left: 68px}
+    h1 {width: auto; margin-top: 150px}
+    p {margin-top: 30px}
+}
+
+@media (max-width: 375px){
+    #login {display: block}
+    .form-control{display: none}
+    #log {display: none}
+
+    #publi {height: 90px; width: 100%}
+    #publimgh {display: none}
+    .col-sm-4 {display: none}
+    #publi img {border-radius: 0px; width: auto; height: 90px; margin-top: 0}
+    #publimgm {display: block}
+
+    .estilo1 {width: calc(92%); position: relative; margin-top: 30px; margin-left: 16px; margin-right: 20px; margin-bottom: 30px}
+    #not3 {width: calc(92%); position: relative; margin-top: 20px; margin-left: 16px; margin-right: 20px; margin-bottom: 30px}
+    .estilo1{background-color: #E8C7C7; border-radius: 25px; box-shadow: 0 4px 8px 0 rgba(215, 40, 40, 0.2), 0 6px 20px 0 rgba(215, 40, 40, 0.19)}
+    #not1 {margin-top: 150px}
+    .minimg {width: 250px; height: 130px; padding: 15px; margin-left: 58px}
+    h1 {width: auto; margin-top: 150px}
+    p {margin-top: 30px}
+}
+
+@media (max-width: 320px){
+    #login {display: block}
+    .form-control{display: none}
+    #log {display: none}
+
+    #publi {height: 90px; width: 100%}
+    #publimgh {display: none}
+    .col-sm-4 {display: none}
+    #publi img {border-radius: 0px; width: auto; height: 90px; margin-top: 0}
+    #publimgm {display: block}
+
+    .estilo1 {width: calc(92%); position: relative; margin-top: 30px; margin-left: 14px; margin-right: 20px; margin-bottom: 30px}
+    #not3 {width: calc(92%); position: relative; margin-top: 20px; margin-left: 14px; margin-right: 20px; margin-bottom: 30px}
+    .estilo1{background-color: #E8C7C7; border-radius: 25px; box-shadow: 0 4px 8px 0 rgba(215, 40, 40, 0.2), 0 6px 20px 0 rgba(215, 40, 40, 0.19)}
+    #not1 {margin-top: 150px}
+    .minimg {width: 250px; height: 130px; padding: 15px; margin-left: 32px}
+    h1 {width: auto; margin-top: 150px}
+    p {margin-top: 30px}
+}

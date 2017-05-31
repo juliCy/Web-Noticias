@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Reddka Sports</title>
+        <link>index.html</link>
+        <description>Página de noticias sobre todo tipo de deportes.</description>
+        <item>
+            <title>Balón de Oro 2016</title>
+            <link>news1.html</link>                
+            <pubDate>Lunes, 12 Diciembre 2016 00:00:00 GMT</pubDate>  
+            <description>France Football hizo oficial la decisión final de un premio
+                que ya nada tiene que ver con la FIFA.
+                Esta vez han sido los periodistas los que han declarado
+                al madridista como mejor jugador del año.</description>
+        </item>
+        <item>
+            <title>Curry hace sangre a los Spurs</title>
+            <link>news2.html</link> 
+            <pubDate>Miercoles, 17 Mayo 2017 00:00:00 GMT</pubDate>           
+            <description>Stephen Curry anotó 29 puntos y encabezó el ataque de los Warriors de Golden State 
+                que vencieron por 136-100 a los Spurs de San Antonio en el segundo partido de las 
+                finales de la Conferencia Oeste que ahora dominan por 2-0 al mejor de siete.</description>
+        </item>
+        <item>
+            <title>Fichaje estrella en el mundial de resistencia</title>
+            <link>index.html</link>       
+            <pubDate>Martes, 16 Mayo 2017 00:00:00 GMT</pubDate>
+            <description>El argentino José María 'Pechito' López, el fichaje estrella de este año en el 
+                Mundial de Resistencia (WEC), no va a llegar a las 24 Horas de Le Mans en su mejor momento, 
+                de ahí que Toyota haya decidido pasarle al tercer coche.</description> 
+        </item>
+    </channel>
+</rss>

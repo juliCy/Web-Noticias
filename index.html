@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz">
+        <link rel="stylesheet" href="css/a.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/js.js"></script>
+        <link rel="alternate" type="application/rss+xml" title="Reddka Sports" href='rss/rss.xml'>
+        <title>Reddka Sports</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Página de noticias sobre todo tipo de deportes."/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">       
+        <meta property="og:site_name" content="Reddka Sports">
+        <meta property="og:url" content="index.html">
+        <meta property="og:title" content="Reddka Sports">
+        <meta property="og:image" content="img/logo.png">
+        <meta property="og:description" content="Página de noticias sobre todo tipo de deportes.">       
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div id="jumbo" class="jumbotron text-center"><a href="index.html"><img src="img/logo.png" alt="logo web" id="logoimg" class="img-responsive center-block"></a></div>
+
+            <nav class="navbar navbar-inverse" id="navfixed">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span> 
+                        </button>
+                        <a id="titulo" class="navbar-brand" href="index.html">REDKKA</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">FUTBOL</a></li>
+                            <li><a href="#">BASKET</a></li>                  
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">OTROS
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">MOTOR</a></li>
+                                    <li><a href="#">TENIS</a></li>
+                                    <li><a href="#">MMA</a></li>
+                                    <li><a href="#">GOLF</a></li>
+                                    <li><a href="#">BADMINTON</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <li id="login"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="publi">
+                <div class="col-sm-4"><br>
+                    <input type="text" class="form-control" placeholder="user" required>
+                    <input type="password" class="form-control" placeholder="password" required>
+                    <button id="log" type="button" class="btn-lg btn-danger"> Log-in </button>
+                    <img src="img/publih.jpg" alt="publicidad escritorio" id="publimgh">
+                </div>
+                <img src="img/publim.png" alt="publicidad movil" id="publimgm" class="img-responsive center-block">
+            </div>
+
+            <div id="not1" class="estilo1"><a class="linknot" href="news1.html">
+                    <div id="minimg" class="minimg">
+                        <img src="img/balon-oro.jpg" alt="balón de oro" class="img-responsive pull-left">    
+                    </div>
+                    <div id="tit" class="tit">            
+                        <h1 class="title">Balón de Oro 2016</h1>
+                        <h5 class="date">Lunes, 12 Diciembre 2016 00:00:00 GMT</h5>
+                        <p class="text">France Football hizo oficial la decisión final de un premio
+                            que ya nada tiene que ver con la FIFA.
+                            Esta vez han sido los periodistas los que han declarado
+                            al madridista como mejor jugador del año.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div id="not2" class="estilo1"><a class="linknot" href="news2.html">
+                    <div id="minimg" class="minimg">
+                        <img src="img/curry.jpg" alt="stephen curry" class="img-responsive pull-left">    
+                    </div>
+                    <div id="tit" class="tit">            
+                        <h1 class="title">Curry hace sangre a los Spurs</h1>
+                        <h5 class="date">Miercoles, 17 Mayo 2017 00:00:00 GMT</h5>
+                        <p class="text">Stephen Curry anotó 29 puntos y encabezó el ataque de los Warriors de Golden State 
+                            que vencieron por 136-100 a los Spurs de San Antonio en el segundo partido de las 
+                            finales de la Conferencia Oeste que ahora dominan por 2-0 al mejor de siete.</p>  
+                    </div>
+                </a>
+            </div>
+
+            <div id="not3" class="estilo1"><a class="linknot" href="#">
+                    <div id="minimg" class="minimg">
+                        <img src="img/lopez.jpg" alt="josé maría lópez" class="img-responsive pull-left">    
+                    </div>
+                    <div id="tit" class="tit">            
+                        <h1 class="title">Fichaje estrella en el mundial de resistencia</h1>
+                        <h5 class="date">Martes, 16 Mayo 2017 00:00:00 GMT</h5>
+                        <p class="text">El argentino José María 'Pechito' López, el fichaje estrella de este año en el 
+                            Mundial de Resistencia (WEC), no va a llegar a las 24 Horas de Le Mans en su mejor momento, 
+                            de ahí que Toyota haya decidido pasarle al tercer coche.</p>  
+                    </div>
+                </a>
+            </div>
+            <div id="cargarNoticias">
+
+            </div>
+
+            <div id="cargardiv">
+                <button id="cargar" type="button" class="btn-lg btn-danger"> Cargar + </button>
+            </div>    
+
+            <footer class="footer">          
+                <ul class="links">
+                    <li><a id="footlink">Julián Maestre</a></li>
+                    <li><a id="footlink" href="https://github.com/juliCy"><span class="fa fa-github"></span> GitHub</a></li>
+                    <li><a id="footlink" href="https://twitter.com"><span class="fa fa-twitter"></span> Twitter</a></li>
+                    <li><a id="footlink" href="https://google.es/"><span class="fa fa-google"></span> Google+</a></li>
+                    <li><a id="footlink" href="https://facebook.com/"><span class="fa fa-facebook"></span> Facebook</a></li>
+                </ul>
+            </footer>
+
+        </div>
+
+    </body>
+</html>
