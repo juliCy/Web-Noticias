@@ -78,7 +78,7 @@ function crearNoticia(json, nombreData) {
     var more = document.getElementById("cargarNoticias");
 
     $.each(json, function (i) {
-        var row = document.createElement("div");
+        var row = document.createElement("div"); 
         row.className = "estilo1" + nombreData;
         row.className = "estilo1";
         $(row).hide();

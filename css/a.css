@@ -52,7 +52,7 @@ h1 {text-align: justify}
 
     #publi {height: 90px; width: 100%}
     #publimgh {display: none}
-    .col-sm-4 {display: none}
+    .subpubli {display: none}
     #publi img {border-radius: 0px; width: auto; height: 90px; margin-top: 0}
     #publimgm {display: block}
 
@@ -72,7 +72,7 @@ h1 {text-align: justify}
 
     #publi {height: 90px; width: 100%}
     #publimgh {display: none}
-    .col-sm-4 {display: none}
+    .subpubli {display: none}
     #publi img {border-radius: 0px; width: auto; height: 90px; margin-top: 0}
     #publimgm {display: block}
 
@@ -92,7 +92,7 @@ h1 {text-align: justify}
 
     #publi {height: 90px; width: 100%}
     #publimgh {display: none}
-    .col-sm-4 {display: none}
+    .subpubli {display: none}
     #publi img {border-radius: 0px; width: auto; height: 90px; margin-top: 0}
     #publimgm {display: block}
 
@@ -112,7 +112,7 @@ h1 {text-align: justify}
 
     #publi {height: 90px; width: 100%}
     #publimgh {display: none}
-    .col-sm-4 {display: none}
+    .subpubli {display: none}
     #publi img {border-radius: 0px; width: auto; height: 90px; margin-top: 0}
     #publimgm {display: block}
 
