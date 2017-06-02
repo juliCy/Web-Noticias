@@ -22,7 +22,7 @@ Objectiu final: Realitzar una aplicació web de notícies que, en fer scroll fin
 
 ## Maquetación inicial
 
-AQUI VAN LAS FOTOS DEL CUADERNO Y EXPICAR LAS LIGERAS MODIFICACIONES
+![web horizontal index](http://imgur.com/a/CVtHd)
 
 ```
 Give the example
