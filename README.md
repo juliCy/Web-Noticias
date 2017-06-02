@@ -22,19 +22,22 @@ Objectiu final: Realitzar una aplicació web de notícies que, en fer scroll fin
 
 ## Maquetación inicial
 
-![web horizontal index](http://imgur.com/a/CVtHd)
-
-```
-Give the example
-```
+![web horizontal index](https://rawgit.com/juliCy/Web-Noticias/master/img/maqueta/image1.JPG)
+![web horizontal news](https://rawgit.com/juliCy/Web-Noticias/master/img/maqueta/image2.JPG)
+![web movil index](https://rawgit.com/juliCy/Web-Noticias/master/img/maqueta/image3.JPG)
+![web horizontal news](https://rawgit.com/juliCy/Web-Noticias/master/img/maqueta/image4.JPG)
 
 ### Añadidos al boceto inicial
 
 Se ha añadido un footer con enlaces de interés.
 
+En la versión de movil se ha añadido un navbar y la publicidad no es fija en la parte baja, si no que se situa arriba y desaparece al hacer scroll.
+
 ### Aclaraciones
 
 Se ha añadido otra librería adicional de bootstrap para añadir iconos que no ofrece gliphicon, como por ejemplo los de github...
+
+La parte del login no es funcional.
 
 Se han realizado media queries para poder adaptar la página web a todas las resoluciones más empleadas hoy en dia.
 Ya que debido a la maquetación de la página no se adaptaba igual a todas las resoluciones.
@@ -42,12 +45,7 @@ Ya que debido a la maquetación de la página no se adaptaba igual a todas las r
 La barra de navegación no tiene funciones implementadas, porqué no hay noticias suficientes noticias como para clasificarlas.
 En las versiones para móvil se añade el botón de login dentro de la barra de navrgación.
 
-La barra de navegación no queda fija en las versiones de móvil, excepto IPAD, para que así se muestra la máxima información posible en pantalla.
-
-```
-Give an example
-```
-
+La barra de navegación no queda fija en las versiones de móvil, excepto IPAD, para que así se muestre la máxima información posible en pantalla.
 
 ## Autor
 
