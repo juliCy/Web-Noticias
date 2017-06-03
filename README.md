@@ -47,6 +47,10 @@ En las versiones para móvil se añade el botón de login dentro de la barra de 
 
 La barra de navegación no queda fija en las versiones de móvil, excepto IPAD, para que así se muestre la máxima información posible en pantalla.
 
+----------------------------
+
+Se ha querido crear un web de noticias simple, sin muchos efectos, que puedan llegar a molestar, pero a la vez bonita de ver y de navegar.
+
 ## Autor
 
 * **Julián Maestre** - *Lenguaje de Marcas* - *DAM*
