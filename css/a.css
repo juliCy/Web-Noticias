@@ -42,7 +42,7 @@ h1 {text-align: justify}
 #cuerpo {padding: 15px; text-align: justify; margin-top: 15px; color: black}
 
 #publi {float: right; width: 300px; height: auto}
-#publimgh {border-radius: 0; width: 300px; height: 100%; margin-left: -15px}
+#publimgh {border-radius: 0; width: 300px; height: 100%; }
 #publimgm {display: none}
 
 @media (max-width: 768px){
